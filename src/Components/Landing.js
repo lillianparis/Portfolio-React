@@ -31,14 +31,14 @@ const Landing = () => {
                     <Nav.Link href="#pricing">About</Nav.Link>
                     <Nav.Link href="#pricing">Resume</Nav.Link>
                     <NavDropdown title="Projects" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Workday Scheduler</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Invitor +</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Note Taker</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Team Profile Generator</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Movie Eaters</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Weffle</NavDropdown.Item>
+                        <NavDropdown.Item href="https://lillianparis.github.io/work-day-scheduler/">Workday Scheduler</NavDropdown.Item>
+                        <NavDropdown.Item href="https://github.com/Erin-Leal/Project-2-Dionysus">Invitor +</NavDropdown.Item>
+                        <NavDropdown.Item href="https://arcane-shore-48502.herokuapp.com/">Note Taker</NavDropdown.Item>
+                        <NavDropdown.Item href="https://drive.google.com/file/d/1MxspBT2Xze1QpznwIGkqXLbvKcreYTV3/view?usp=sharing">Team Profile Generator</NavDropdown.Item>
+                        <NavDropdown.Item href="https://daellarrek.github.io/Team-Grass/">Movie Eaters</NavDropdown.Item>
+                        <NavDropdown.Item href="https://lillianparis.github.io/password-generator/">Password Generator</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">Github</NavDropdown.Item>
+                        <NavDropdown.Item href="https://github.com/lillianparis">Github</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
             </Navbar>
@@ -70,8 +70,8 @@ const Landing = () => {
                             This calender application helps its users manage their time more efficiently, alongside the demands of a busy
                             schedule. This application color codes activies based on past, present and future tasks also allowing the user to save their activities to view at a later time.
         </Card.Text>
-                        <Button variant="dark">Repository</Button>{' '}
-                        <Button variant="dark">Deployed</Button>{' '}
+                        <Button href="https://github.com/lillianparis/work-day-scheduler" variant="dark">Repository</Button>{' '}
+                        <Button href="https://lillianparis.github.io/work-day-scheduler/" variant="dark">Deployed</Button>{' '}
                     </Card.Body>
                 </Card>
                 <Card bg="dark" text="white" className="p-3">
