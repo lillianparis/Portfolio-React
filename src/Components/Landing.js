@@ -1,19 +1,137 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
+import CardColumns from 'react-bootstrap/CardColumns';
+import Card from 'react-bootstrap/Card';
 
+// Landing page Navbar
 const Landing = () => {
     return (
         <div>
             <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                <Navbar.Brand href="#home">Lillian Paris</Navbar.Brand>
                 <Nav className="mr-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Features</Nav.Link>
-                    <Nav.Link href="#pricing">Pricing</Nav.Link>
+                    <Nav.Link href="./Components/Landing">Home</Nav.Link>
+                    <Nav.Link href="./Components/Contact">Contact</Nav.Link>
+                    <Nav.Link href="#pricing">About</Nav.Link>
+                    <Nav.Link href="#pricing">Resume</Nav.Link>
+                    <NavDropdown title="Projects" id="basic-nav-dropdown">
+                        <NavDropdown.Item href="#action/3.1">Workday Scheduler</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.2">Invitor +</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.3">Note Taker</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.3">Team Profile Generator</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.3">Movie Eaters</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.3">Weffle</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item href="#action/3.4">Github</NavDropdown.Item>
+                    </NavDropdown>
                 </Nav>
             </Navbar>
+            <Container>
+                <Row>
+                    <Col xs={6} md={4}>
+                        <Image src="Profile.jpeg/171x180" roundedCircle />
+                    </Col>
+                </Row>
+            </Container>
 
+            <CardColumns>
+                <Card>
+                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Body>
+                        <Card.Title>Workday Scheduler</Card.Title>
+                        <Card.Text>
+                            This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+        </Card.Text>
+                    </Card.Body>
+                </Card>
+                <Card className="p-3">
+                    <blockquote className="blockquote mb-0 card-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+                            erat a ante.
+        </p>
+                        <footer className="blockquote-footer">
+                            <small className="text-muted">
+                                Someone famous in <cite title="Source Title">Invitor +</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </Card>
+                <Card>
+                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Body>
+                        <Card.Title>Note Taker</Card.Title>
+                        <Card.Text>
+                            This card has supporting text below as a natural lead-in to additional
+        content.{' '}
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Last updated 3 mins ago</small>
+                    </Card.Footer>
+                </Card>
+                <Card bg="primary" text="white" className="text-center p-3">
+                    <blockquote className="blockquote mb-0 card-body">
+                        <p>
+                          Technologies used + Skills Aquired
+      </p>
+                        <footer className="blockquote-footer">
+                            <small className="text-muted">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </Card>
+                <Card className="text-center">
+                    <Card.Body>
+                        <Card.Title>Team Profile Generator</Card.Title>
+                        <Card.Text>
+                            This card has supporting text below as a natural lead-in to additional
+        content.{' '}
+                        </Card.Text>
+                        <Card.Text>
+                            <small className="text-muted">Last updated 3 mins ago</small>
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+                <Card>
+                    <Card.Img src="holder.js/100px160" />
+                </Card>
+                <Card className="text-right">
+                    <blockquote className="blockquote mb-0 card-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+                            erat a ante.
+      </p>
+                        <footer className="blockquote-footer">
+                            <small className="text-muted">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </Card>
+                <Card>
+                    <Card.Body>
+                        <Card.Title>Movie Eaters</Card.Title>
+                        <Card.Text>
+                            This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to
+                            show that equal height action.
+      </Card.Text>
+                        <Card.Text>
+                            <small className="text-muted">Last updated 3 mins ago</small>
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </CardColumns>
         </div>
+
     );
 };
 
