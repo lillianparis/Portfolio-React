@@ -26,10 +26,10 @@ const Landing = () => {
             <Container>
                 <Row>
                     <Col xs={6} md={8}>
-                        <Image style={{ height: 700 }} src={Profile} alt="Profile" roundedCircle />
+                        <Image style={{ height: 450, width: 300, marginTop: '2rem', marginLeft: '4rem', marginRight: '5rem'}} class="avatar avatar-user width full border bg-white" src={Profile} alt="Profile" roundedCircle />
                     </Col>
                     <Col xs={6} md={4}>
-                        <Card border="secondary" style={{ width: '28rem' }}>
+                        <Card border="secondary" style={{ width: '29rem', marginTop: '2rem', marginRight: '6rem'}}>
                             <Card.Header>Hi My Name is Lilli!</Card.Header>
                             <Card.Body>
                                 <Card.Title>About Me</Card.Title>
