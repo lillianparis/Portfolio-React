@@ -1,6 +1,6 @@
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+// import Navbar from 'react-bootstrap/Navbar';
+// import Nav from 'react-bootstrap/Nav';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -17,47 +17,32 @@ import password from './password.png';
 import teamprofilegenerator from './teamprofilegenerator.png';
 import invitor from './invitor.png';
 import './Land.css';
+import NavB from './NavB';
+import Footer from './Footer';
 
-
+// Maybe see live instead of deployed
 // Landing page Navbar
 const Landing = () => {
     return (
         <div>
-            <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="#home">Lillian Paris</Navbar.Brand>
-                <Nav className="mr-auto">
-                    <Nav.Link href="./Components/Landing">Home</Nav.Link>
-                    <Nav.Link href="./Components/Contact">Contact</Nav.Link>
-                    <Nav.Link href="#pricing">About</Nav.Link>
-                    <Nav.Link href="#pricing">Resume</Nav.Link>
-                    <NavDropdown title="Projects" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="https://lillianparis.github.io/work-day-scheduler/">Workday Scheduler</NavDropdown.Item>
-                        <NavDropdown.Item href="https://github.com/Erin-Leal/Project-2-Dionysus">Invitor +</NavDropdown.Item>
-                        <NavDropdown.Item href="https://arcane-shore-48502.herokuapp.com/">Note Taker</NavDropdown.Item>
-                        <NavDropdown.Item href="https://drive.google.com/file/d/1MxspBT2Xze1QpznwIGkqXLbvKcreYTV3/view?usp=sharing">Team Profile Generator</NavDropdown.Item>
-                        <NavDropdown.Item href="https://daellarrek.github.io/Team-Grass/">Movie Eaters</NavDropdown.Item>
-                        <NavDropdown.Item href="https://lillianparis.github.io/password-generator/">Password Generator</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="https://github.com/lillianparis">Github</NavDropdown.Item>
-                    </NavDropdown>
-                </Nav>
-            </Navbar>
+            <NavB />
             <Container>
                 <Row>
+                    <Col xs={6} md={8}>
+                        <Image style={{height: 800}} src={Profile} alt="Profile" roundedCircle />
+                    </Col>
                     <Col xs={6} md={4}>
-                        <Image src={Profile} alt="Profile" roundedCircle />
+                        <Card border="secondary" style={{ width: '18rem' }}>
+                            <Card.Header>Hi My Name is Lilli!</Card.Header>
+                            <Card.Body>
+                                <Card.Title>About Me</Card.Title>
+                                <Card.Text>
+                                    Currently a Full stack web developer interested in learning new languages to construct sophisticated, user friendly, applications. Recently earned a certificate in full stack development from the U of A, strengthening my skills in JavaScript, Node.js, MySQL and arithmetic. Applied aspects of JavaScript and APIs in a recent project with four colleagues, to create an enjoyable night out application. Passionate about providing a useful perspective on user interfaces as well as constructing applications in group settings. Known as a contemporary problem solver always in search for a new project, with a focus on user friendlyness and development. With each project, my ambition is to deploy quality applications for an impactful user experience.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
                     </Col>
                 </Row>
-
-                <Card border="secondary" style={{ width: '18rem' }}>
-                    <Card.Header>Hi My Name is Lilli!</Card.Header>
-                    <Card.Body>
-                        <Card.Title>About Me</Card.Title>
-                        <Card.Text>
-                            Currently a Full stack web developer interested in learning new languages to construct sophisticated, user friendly, applications. Recently earned a certificate in full stack development from the U of A, strengthening my skills in JavaScript, Node.js, MySQL and arithmetic. Applied aspects of JavaScript and APIs in a recent project with four colleagues, to create an enjoyable night out application. Passionate about providing a useful perspective on user interfaces as well as constructing applications in group settings. Known as a contemporary problem solver always in search for a new project, with a focus on user friendlyness and development. With each project, my ambition is to deploy quality applications for an impactful user experience.
-            </Card.Text>
-                    </Card.Body>
-                </Card>
                 <br />
             </Container>
 
@@ -190,7 +175,9 @@ const Landing = () => {
                     </Card.Body>
                 </Card>
             </CardColumns>
+        <Footer/>
         </div>
+
 
     );
 };
