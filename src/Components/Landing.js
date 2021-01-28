@@ -1,6 +1,3 @@
-// import Navbar from 'react-bootstrap/Navbar';
-// import Nav from 'react-bootstrap/Nav';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -29,10 +26,10 @@ const Landing = () => {
             <Container>
                 <Row>
                     <Col xs={6} md={8}>
-                        <Image style={{height: 800}} src={Profile} alt="Profile" roundedCircle />
+                        <Image style={{ height: 700 }} src={Profile} alt="Profile" roundedCircle />
                     </Col>
                     <Col xs={6} md={4}>
-                        <Card border="secondary" style={{ width: '18rem' }}>
+                        <Card border="secondary" style={{ width: '28rem' }}>
                             <Card.Header>Hi My Name is Lilli!</Card.Header>
                             <Card.Body>
                                 <Card.Title>About Me</Card.Title>
@@ -84,9 +81,7 @@ const Landing = () => {
                         <Button href="https://lillianparis.github.io/note-taker/" variant="dark">Repository</Button>{' '}
                         <Button href=" https://arcane-shore-48502.herokuapp.com/" variant="dark">Deployed</Button>{' '}
                     </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
+
                 </Card>
                 <Card bg="dark" text="white" className="text-center p-3">
                     <blockquote className="blockquote mb-0 card-body">
@@ -115,9 +110,7 @@ const Landing = () => {
                         </Card.Text>
                         <Button href="https://github.com/lillianparis/template_engine" variant="dark">Repository</Button>{' '}
                         <Button href="https://drive.google.com/file/d/1MxspBT2Xze1QpznwIGkqXLbvKcreYTV3/view?usp=sharing" variant="dark">Deployed</Button>{' '}
-                        <Card.Text>
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Text>
+
                     </Card.Body>
                 </Card>
                 <Card>
@@ -131,9 +124,7 @@ const Landing = () => {
                         </Card.Text>
                         <Button href="https://github.com/lillianparis/password-generator" variant="dark">Repository</Button>{' '}
                         <Button href="https://lillianparis.github.io/password-generator/" variant="dark">Deployed</Button>{' '}
-                        <Card.Text>
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Text>
+
                     </Card.Body>
                 </Card>
                 <Card bg="dark" text="white" className="text-right">
@@ -158,9 +149,7 @@ const Landing = () => {
       </Card.Text>
                         <Button href="https://github.com/Daellarrek/Team-Grass" variant="dark">Repository</Button>{' '}
                         <Button href="https://daellarrek.github.io/Team-Grass/" variant="dark">Deployed</Button>{' '}
-                        <Card.Text>
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Text>
+
                     </Card.Body>
                 </Card>
                 <Card>
@@ -175,7 +164,7 @@ const Landing = () => {
                     </Card.Body>
                 </Card>
             </CardColumns>
-        <Footer/>
+            <Footer />
         </div>
 
 
