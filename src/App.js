@@ -14,7 +14,7 @@ function App() {
     <Route path='/'>
         <Landing />
     </Route>
-    <Route path='/Portfolio-React/Resume'>
+    <Route path='/Resume/Portfolio-React'>
         <Resume />
     </Route>
     {/* <Route path='/login'>
