@@ -27,7 +27,7 @@ const Landing = () => {
                 <Row>
                 <style>{'body { background-color: tan; }'}</style>
                     <Col xs={6} md={8}>
-                        <Image style={{ height: 450, width: 300, marginTop: '2rem', marginLeft: '4rem', marginRight: '5rem'}} class="avatar avatar-user width full border bg-white" src={Profile} alt="Profile" roundedCircle />
+                        <Image style={{ height: 450, width: 300, marginTop: '2rem', marginLeft: '4rem', marginRight: '5rem'}} className="avatar avatar-user width full border bg-white" src={Profile} alt="Profile" roundedCircle />
                     </Col>
                     <Col xs={6} md={4}>
                         <Card border="secondary" style={{ width: '29rem', marginTop: '2rem', marginRight: '6rem'}}>
