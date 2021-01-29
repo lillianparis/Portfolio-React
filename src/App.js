@@ -10,7 +10,7 @@ function App() {
 // Self closing tag
 <Router>
 
-{/* <Switch> */}
+<Switch>
     <Route path='/'>
         <Landing />
     </Route>
@@ -27,7 +27,7 @@ function App() {
     <PrivateRoute exact path ='/createraffle'>
         <CreateRaffle />
     </PrivateRoute> */}
-{/* </Switch> */}
+</Switch>
 
 
 </Router>
