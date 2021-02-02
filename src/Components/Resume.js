@@ -1,11 +1,14 @@
 import React from 'react';
+import PDF from './NewResume.pdf';
 
 
 
 const Resume = () => {
     return (
-<embed className = "pdf" src={require("./NewResume (1).pdf")}  width="800px" height="700px" />
-    );
-};
-
-export default Resume;
+        <>
+        <iframe src={PDF} height="1000" width="1300" ></iframe>
+        </>
+        );
+    };
+    
+    export default Resume;

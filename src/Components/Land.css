@@ -8,7 +8,11 @@
 .col-md-4 col-6 {
     background-color: rgb(80, 139, 139);
 }; */
-
+.photo {
+  background-image: url("./background.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
 .footer-bs {
   background-color: #3c3d41;
 padding: 60px 40px;
