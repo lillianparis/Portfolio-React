@@ -1,5 +1,5 @@
 import React from 'react';
-import PDF from './NewResume.pdf';
+import PDF from './NewResume2.pdf';
 
 
 

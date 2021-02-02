@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image';
 import CardColumns from 'react-bootstrap/CardColumns';
 import Card from 'react-bootstrap/Card';
 import React from 'react';
-import Profile from './Profile.png';
+import Profile from './cover.jpg';
 // import Schedule from './Schedule.png';
 // import notetaker from './notetaker.png';
 // import Movie from './Movie.png';
@@ -31,7 +31,7 @@ const Landing = () => {
                     </Col>
                     <Col xs={12} sm={12} md={12} lg={8}>
                         <Card border="secondary" style={{ width: '29rem', marginTop: '2rem', marginRight: '6rem'}}>
-                            <Card.Header>Hi My Name is Lilli!</Card.Header>
+                            {/* <Card.Header>Hi My Name is Lilli!</Card.Header> */}
                             <Card.Body>
                                 <Card.Title>About Me</Card.Title>
                                 <Card.Text>

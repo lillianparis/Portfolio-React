@@ -26,7 +26,7 @@ const Contact = () => {
                         <Button href="https://lillianparis.github.io/work-day-scheduler/" variant="dark">Deployed</Button>{' '}
                     </Card.Body>
                 </Card>
-                <Card bg="dark" text="white" className="p-3">
+                {/* <Card bg="dark" text="white" className="p-3">
                     <blockquote className="blockquote mb-0 card-body">
                         <p>
                             "Don't let the noise of others' opinions drown out your own inner voice."
@@ -37,7 +37,7 @@ const Contact = () => {
                             </small>
                         </footer>
                     </blockquote>
-                </Card>
+                </Card> */}
                 <Card>
                     <Card.Img variant="top" src={notetaker} alt="notetaker" />
                     <Card.Body>
@@ -53,7 +53,7 @@ const Contact = () => {
                     </Card.Body>
 
                 </Card>
-                <Card bg="dark" text="white" className="text-center p-3">
+                {/* <Card bg="dark" text="white" className="text-center p-3">
                     <blockquote className="blockquote mb-0 card-body">
                         <p>
                             Technologies used + Skills Aquired
@@ -65,7 +65,7 @@ const Contact = () => {
                             </small>
                         </footer>
                     </blockquote>
-                </Card>
+                </Card> */}
                 <Card className="text-center">
                     <Card.Img variant="top" src={teamprofilegenerator} alt="teamprofilegenerator" />
                     <Card.Body>
@@ -97,7 +97,7 @@ const Contact = () => {
 
                     </Card.Body>
                 </Card>
-                <Card bg="dark" text="white" className="text-right">
+                {/* <Card bg="dark" text="white" className="text-right">
                     <blockquote className="blockquote mb-0 card-body">
                         <p>
                             "Computers are incredibly fast, accurate and stupid; humans are incredibly slow, inaccurate and brilliant; together they are powerful beyond imagination."
@@ -108,7 +108,7 @@ const Contact = () => {
                             </small>
                         </footer>
                     </blockquote>
-                </Card>
+                </Card> */}
                 <Card>
                     <Card.Img variant="top" src={Movie} alt="Movie" />
                     <Card.Body>
