@@ -56,6 +56,7 @@ npm test
 
 <img width="1650" alt="Screen Shot 2021-02-01 at 10 14 58 PM" src="https://user-images.githubusercontent.com/62733242/106555546-020db400-64db-11eb-8d22-009b2fc7d006.png">
 
+<img width="1523" alt="Screen Shot 2021-02-01 at 10 17 35 PM" src="https://user-images.githubusercontent.com/62733242/106555737-66307800-64db-11eb-96ca-2a3fe2412713.png">
 
 ## Questions
 
