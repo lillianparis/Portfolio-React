@@ -11,21 +11,18 @@ function App() {
     return (
         // Self closing tag
         <Router>
-            <Landing></Landing>
+            {/* <Landing/> */}
             <Switch>
-                <Route exact path='/resume'>
+                {/* <Route exact path='/resume'>
                     <Resume />
-                </Route>
-                <Route path='/contact'>
-                    <Contact />
-                </Route>
-                {/* <Route path='/login'>
-                    <Login />
                 </Route> */}
+                <Route exact path='/' component={Landing}/>
+                <Route exact path='/Contact' component={Contact}/>
 
-           
+
+
             </Switch>
-        </Router>
+        </Router >
 
     );
 }

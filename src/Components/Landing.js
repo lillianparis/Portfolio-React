@@ -17,6 +17,7 @@ import './Land.css';
 import NavB from './NavB';
 import Footer from './Footer';
 
+
 // Maybe see live instead of deployed
 // Landing page Navbar
 const Landing = () => {

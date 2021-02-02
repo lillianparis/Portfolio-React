@@ -1,6 +1,8 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from "react-router-dom";
+
 
 
 const NavB = () => {
@@ -9,10 +11,12 @@ const NavB = () => {
         <Navbar bg="dark" variant="dark">
             <Navbar.Brand href="#home">Lillian Paris</Navbar.Brand>
             <Nav className="mr-auto">
-                <Nav.Link href="./Components/Landing">Home</Nav.Link>
-                <Nav.Link href="./Components/Contact">Contact</Nav.Link>
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/Contact">Contact</Nav.Link>
+                
+
                 <Nav.Link href="#pricing">About</Nav.Link>
-                <Nav.Link href="/Portfolio-React/Resume">Resume</Nav.Link>
+                <Nav.Link href="./Components/Resume">Resume</Nav.Link>
                 <NavDropdown title="Projects" id="basic-nav-dropdown">
                     <NavDropdown.Item href="https://lillianparis.github.io/work-day-scheduler/">Workday Scheduler</NavDropdown.Item>
                     <NavDropdown.Item href="https://github.com/Erin-Leal/Project-2-Dionysus">Invitor +</NavDropdown.Item>
