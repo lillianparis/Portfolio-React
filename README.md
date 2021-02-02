@@ -21,8 +21,10 @@
 
 ## Deployed 
 
-## Description
+https://lillianparis.github.io/Portfolio-React/
 
+## Description
+This portfolio utilizes React and React-Bootstrap. 
 
 
 ## Installation
@@ -52,7 +54,7 @@ npm test
 
 ## Images
 
-
+<img width="1650" alt="Screen Shot 2021-02-01 at 10 14 58 PM" src="https://user-images.githubusercontent.com/62733242/106555546-020db400-64db-11eb-8d22-009b2fc7d006.png">
 
 
 ## Questions
