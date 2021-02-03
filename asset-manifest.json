@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React/static/css/main.4fc6bcb3.chunk.css",
+    "main.js": "/Portfolio-React/static/js/main.65fcec41.chunk.js",
+    "main.js.map": "/Portfolio-React/static/js/main.65fcec41.chunk.js.map",
+    "runtime-main.js": "/Portfolio-React/static/js/runtime-main.d824929e.js",
+    "runtime-main.js.map": "/Portfolio-React/static/js/runtime-main.d824929e.js.map",
+    "static/css/2.150d169a.chunk.css": "/Portfolio-React/static/css/2.150d169a.chunk.css",
+    "static/js/2.1eeae33d.chunk.js": "/Portfolio-React/static/js/2.1eeae33d.chunk.js",
+    "static/js/2.1eeae33d.chunk.js.map": "/Portfolio-React/static/js/2.1eeae33d.chunk.js.map",
+    "static/js/3.b194ceef.chunk.js": "/Portfolio-React/static/js/3.b194ceef.chunk.js",
+    "static/js/3.b194ceef.chunk.js.map": "/Portfolio-React/static/js/3.b194ceef.chunk.js.map",
+    "index.html": "/Portfolio-React/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/Portfolio-React/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.4fc6bcb3.chunk.css.map": "/Portfolio-React/static/css/main.4fc6bcb3.chunk.css.map",
+    "static/js/2.1eeae33d.chunk.js.LICENSE.txt": "/Portfolio-React/static/js/2.1eeae33d.chunk.js.LICENSE.txt",
+    "static/media/Movie.e614e336.png": "/Portfolio-React/static/media/Movie.e614e336.png",
+    "static/media/NewResume2.92e0c6b1.pdf": "/Portfolio-React/static/media/NewResume2.92e0c6b1.pdf",
+    "static/media/Schedule.852121b7.png": "/Portfolio-React/static/media/Schedule.852121b7.png",
+    "static/media/Land.css": "/Portfolio-React/static/media/background.cf124f7d.jpg",
+    "static/media/cover.70a4a6e9.jpg": "/Portfolio-React/static/media/cover.70a4a6e9.jpg",
+    "static/media/invitor.871c6bcf.png": "/Portfolio-React/static/media/invitor.871c6bcf.png",
+    "static/media/notetaker.67d47956.png": "/Portfolio-React/static/media/notetaker.67d47956.png",
+    "static/media/password.e491b762.png": "/Portfolio-React/static/media/password.e491b762.png",
+    "static/media/teamprofilegenerator.bdc52832.png": "/Portfolio-React/static/media/teamprofilegenerator.bdc52832.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d824929e.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.1eeae33d.chunk.js",
+    "static/css/main.4fc6bcb3.chunk.css",
+    "static/js/main.65fcec41.chunk.js"
+  ]
+}
