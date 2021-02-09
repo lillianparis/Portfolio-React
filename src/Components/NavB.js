@@ -12,10 +12,10 @@ const NavB = () => {
             <Navbar.Brand href="#home">Lillian Paris</Navbar.Brand>
             <Nav className="mr-auto">
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/Contact">Projects</Nav.Link>
+                <Nav.Link href="/Project">Projects</Nav.Link>
                 
 
-                <Nav.Link href="#pricing">About</Nav.Link>
+                <Nav.Link href="/Contact">Contact</Nav.Link>
                 <Nav.Link href="/Resume">Resume</Nav.Link>
                 <NavDropdown title="Direct Links" id="basic-nav-dropdown">
                     <NavDropdown.Item href="https://lillianparis.github.io/work-day-scheduler/">Workday Scheduler</NavDropdown.Item>

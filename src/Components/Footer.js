@@ -32,6 +32,7 @@ const Footer = () => {
                         </div>
                         <div className="col-md-6">
                             <ul className="list">
+                            <h4>Tools Used —</h4>
                                 <li><a href="https://react-bootstrap.github.io/">React-Bootsrap</a></li>
                                 <li><a href="https://www.npmjs.com/package/jsx">JSX</a></li>
                                 <li><a href="https://www.npmjs.com/package/react">React</a></li>
