@@ -38,7 +38,6 @@ const Contact = () => {
                         <ul>
                             <li><a href="https://github.com/lillianparis">Github</a></li>
                             <li><a href="./Resume">Resume</a></li>
-                            <li><a href="lillian.paris529@gmail.com">Email</a></li>
                             <li><a href="https://www.linkedin.com/in/lillian-paris-7340401b4">Linkedln</a></li>
                             <li><a href="https://twitter.com/lilliannpar">Twitter</a></li>
                         </ul>
