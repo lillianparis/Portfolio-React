@@ -35,7 +35,7 @@ const Landing = () => {
                             <Card.Body>
                                 <Card.Title>About Me</Card.Title>
                                 <Card.Text>
-                                    Currently a Full stack web developer interested in learning new languages to construct sophisticated, user friendly, applications. Recently earned a certificate in full stack development from the U of A, strengthening my skills in JavaScript, Node.js, MySQL and arithmetic. Applied aspects of JavaScript and APIs in a recent project with four colleagues, to create an enjoyable night out application. Passionate about providing a useful perspective on user interfaces as well as constructing applications in group settings. Known as a contemporary problem solver always in search for a new project, with a focus on user friendlyness and development. With each project, my ambition is to deploy quality applications for an impactful user experience.
+                                Full Stack Web Developer passionate about learning new languages to construct sophisticated, user friendly, applications. Recently earned a certificate in full stack development from the University of Arizona. Highly organized, self-motivated, and proficient with computers. Enthusiastic about crafting the ideal websites for businesses, startups and companies to create both a positive and energetic experience. Positioned to provide a useful perspective on user interface as well as constructing applications with a group.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
