@@ -21,7 +21,7 @@
 
 ## Deployed 
 
-https://lillianparis.github.io/Portfolio-React/
+http://www.lillianparis.com/
 
 ## Description
 This portfolio utilizes React and React-Bootstrap. 
