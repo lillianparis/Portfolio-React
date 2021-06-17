@@ -57,7 +57,7 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-            <section style={{ textAlign: 'center', margin: '10px' }}><p>Designed by <a href="http://enfoplus.net">Prince J. Sargbah</a></p></section>
+            <section style={{ textAlign: 'center', margin: '10px' }}><p>Footer Designed by <a href="http://enfoplus.net">Prince J. Sargbah</a></p></section>
 
         </div>
         // Prince J. Sargbah Footing was designed by
